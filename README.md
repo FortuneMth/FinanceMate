@@ -1,10 +1,10 @@
-# FinanceMate 💰📊  
+# FinanceMate 
 
 **FinanceMate** is a web app that simplifies financial management by offering tools like loan calculators, tax estimators, and savings trackers. It’s designed for users who want quick and accurate financial insights without the hassle.  
 
 ---
 
-## 🌟 Features  
+## Features  
 
 1. **Loan Calculator**  
    - Calculate monthly repayments, total loan costs, and interest savings.  
@@ -18,26 +18,17 @@
 ---
 
 
-**Project Structure**
+## Project Structure  
 
-FinanceMate/
-├── index.html        # Main landing page
-├── loan-calculator.html # Loan calculator page
-├── tax-estimator.html   # Tax estimator page
-├── savings-tracker.html # Savings tracker page
-├── css/
-│   ├── style.css        # Global styles
-│   ├── loan.css         # Loan calculator-specific styles
-│   ├── tax.css          # Tax estimator-specific styles
-│   └── savings.css      # Savings tracker-specific styles
-├── js/
-│   ├── main.js          # Global scripts
-│   ├── loan.js          # Loan calculator logic
-│   ├── tax.js           # Tax estimator logic
-│   └── savings.js       # Savings tracker logic
-└── assets/
-    ├── images/          # Images used in the app
-    └── icons/           # Icons and graphics
+- **Main Landing Page:** The `index.html` file serves as the main entry point, introducing users to the app and its features.  
+- **Loan Calculator Page:** The `loan-calculator.html` file is dedicated to calculating loan repayment plans and interest.  
+- **Tax Estimator Page:** The `tax-estimator.html` file allows users to estimate their income tax based on earnings and deductions.  
+- **Savings Tracker Page:** The `savings-tracker.html` file helps users set and monitor their savings goals.  
+
+- **CSS Folder:** This contains the global styles in `style.css`, along with page-specific styles such as `loan.css` for the loan calculator, `tax.css` for the tax estimator, and `savings.css` for the savings tracker.  
+- **JavaScript Folder:** This includes the global scripts in `main.js` and feature-specific logic in `loan.js`, `tax.js`, and `savings.js`.  
+- **Assets Folder:** This folder holds images in the `images/` directory and icons and graphics in the `icons/` directory.  
+ 
     
 ---
 
