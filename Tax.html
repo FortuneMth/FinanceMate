@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tax</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h3><a href="Index.html">FinanceMate</a></h3>
+        <a href="Loan.html">Loan Repayment Calculator</a>
+        <a href="Tax.html">Tax Calculator</a>
+        <a href="Savings.html">Savings Goal Calculator</a>
+    </div>
+    <div class="taxinfo">
+        <h1>
+            Tax Calculator
+        </h1>
+        <p>
+            Effortlessly estimate your income tax based on your earnings and deductions. Input your annual income, 
+            applicable deductions, and age to see your <br>estimated tax liability, ensuring you stay informed and 
+            prepared for tax season!
+        </p>
+    </div>
+    <div class="Container">
+    <form class="tax_form">
+        <label for="annual_income">Annual Income (R):</label>
+        <input type="number" id="annual_income" name="annual_income" placeholder="Enter your annual income" required>
+        
+        <label for="extra_income">Extra Income (R):</label>
+        <input type="number" id="extra_income" name="extra_income" placeholder="Enter your extra income">
+        
+        <label for="taxable_deductions">Taxable Deductions (R):</label>
+        <input type="number" id="taxable_deductions" name="taxable_deductions" placeholder="Enter taxable deductions">
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+        
+        <label for="tax_year">Tax Season/Year:</label>
+        <select id="tax_year" name="tax_year" required>
+            <option value="" disabled selected>Select tax year:</option>
+            <option value="2024">2024</option>
+        </select>
+        <button type="submit">Calculate</button>
+    </form>
+    <div class="result_card" id="result_card" style="display: none;">
+        <h3>Tax Results</h3>
+  <p id="result_text"><strong>Annual Income:</strong> <span id="tax-result-annual-income"></span></p>
+  <p id="result_text"><strong>Extra Income:</strong> <span id="tax-result-extra-income"></span></p>
+  <p id="result_text"><strong>Taxable Deductions:</strong> <span id="tax-result-deductions"></span></p>
+  <p id="result_text"><strong>Age:</strong> <span id="tax-result-age"></span></p>
+  <p id="result_text"><strong>Tax Year:</strong> <span id="tax-result-tax-year"></span></p>
+  <p id="result_text"><strong>Tax Payable:</strong> <span id="tax-result-taxable"></span></p>
+</div>
+</div>
+<script src="Tax.js"></script>
+</body>
+</html>

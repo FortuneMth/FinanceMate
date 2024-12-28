@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loan Repayment Calculator</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h3><a href="Index.html">FinanceMate</a></h3>
+        <a href="Loan.html">Loan Repayment Calculator</a>
+        <a href="Tax.html">Tax Calculator</a>
+        <a href="Savings.html">Savings Goal Calculator</a>
+    </div>
+
+    <div class="loaninfo">
+        <h1>Loan Repayment Calculator</h1>
+        <p>
+            Quickly calculate your monthly loan repayments, total interest costs, and potential savings from extra payments. <br>Enter your loan amount, interest rate, loan term, and other relevant information to generate a detailed summary of your repayment plan!
+        </p>
+    </div>
+<div class="Container">
+    <form class="loan_calculator_form">
+        <div class="form_group">
+            <label for="loan_amount">Loan Amount (R):</label>
+            <input type="number" id="loan_amount" name="loanAmount" placeholder="Enter your loan amount" required>
+        </div>
+        <div class="form_group">
+            <label for="interest_rate">Interest Rate (%):</label>
+            <input type="number" id="interest_rate" name="interestRate" placeholder="Enter the annual interest rate" required>
+        </div>
+        <div class="form_group">
+            <label for="loan_terms">Loan Term (months):</label>
+            <input type="number" id="loan_terms" name="loanTerms" placeholder="Enter loan term in months" required>
+        </div>
+        <div class="form_group">
+            <label for="extra_payments">Additional Payments (R):</label>
+            <input type="number" id="extra_payments" name="extraPayments" placeholder="Enter extra payments, if any">
+        </div>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div class="result_card" id="result_card" style="display: none;">
+        <h3>The Results Are In</h3>
+        <p id="result_text"></p>
+    </div>
+</div>
+    <script src="Loan.js"></script>
+</body>
+</html>
+
+
+
+

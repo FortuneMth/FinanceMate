@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Savings Goal Calculator</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h3><a href="Index.html">FinanceMate</a></h3>
+        <a href="Loan.html">Loan Repayment Calculator</a>
+        <a href="Tax.html">Tax Calculator</a>
+        <a href="Savings.html">Savings Goal Calculator</a>
+    </div>
+
+    <div class="saveinfo">
+        <h1>Savings Goal Calculator</h1>
+        <p>
+            Calculate how much you need to save monthly to achieve your savings goal, based on an estimated interest rate.
+        </p>
+    </div>
+    <div class="Container">
+        <form id="savings_calculator_form" class="savings_calculator_form">
+            <div class="form_group">
+                <label for="savings_goal_amount">Savings Goal:</label>
+                <input type="number" id="savings_goal_amount" name="savingsGoalAmount" placeholder="Desired final savings amount" required>
+            </div>
+
+            <div class="form_group">
+                <label for="initial_investment">Initial Investment:</label>
+                <input type="number" id="initial_investment" name="initialInvestment" placeholder="Initial amount available to invest" required>
+            </div>
+
+            <div class="form_group">
+                <label for="years_to_grow">Years to Grow:</label>
+                <input type="number" id="years_to_grow" name="yearsToGrow" placeholder="Length of time in years" required>
+            </div>
+
+            <div class="form_group">
+                <label for="interest_rate">Estimated Interest Rate (%):</label>
+                <input type="number" id="interest_rate" name="interestRate" placeholder="Estimated annual interest rate" required>
+            </div>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div class="result_card" id="result_card" style="display: none;">
+            <h3>The Results Are In</h3>
+            <p id="result_text"></p>
+        </div>
+    </div>
+
+    <script src="Savings.js"></script>
+</body>
+</html>
+
+

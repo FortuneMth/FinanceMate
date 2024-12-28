@@ -1,0 +1,173 @@
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #002147;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  font-family: 'Poppins', sans-serif;
+  padding: 6px 8px 16px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+}
+.sidebar h3 a{
+  font-family: 'Sansita One', sans-serif; 
+  color: #F82F68;
+  font-size: 28px; 
+  text-align: center; 
+  margin-bottom: 16px;
+}
+.Info {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin-left: 20rem; 
+  padding: 1rem; 
+}
+
+#Finances {
+  text-align: center;
+  font-size: 3rem;
+  margin-left: 20rem; 
+  padding-top: 3rem; 
+  padding-bottom: 6rem; 
+}
+
+#intro {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-left: 20rem;
+  padding-top: 4rem; 
+}
+.loaninfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.loan_calculator_form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 36rem;
+  margin-top: 3rem;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+form input, form textarea {
+width: 300px; 
+height: 40px; 
+padding: 10px; 
+font-size: 16px; 
+box-sizing: border-box; 
+border-radius: 8px;
+}
+
+button {
+width: 300px;
+height: 40px;
+background-color: #F82F68;
+color: #ffffff;
+border-radius: 8px;
+margin-top: 32px;
+}
+
+.saveinfo{
+display: flex;
+  flex-direction: column;
+  margin-left: 28rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.savings_calculator_form{
+display: flex;
+  flex-direction: column;
+  margin-left: 36rem;
+  margin-top: 3rem;
+}
+
+.taxinfo{
+display: flex;
+  flex-direction: column;
+  margin-left: 28rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.tax_form{
+display: flex;
+  flex-direction: column;
+  margin-left: 36rem;
+  margin-top: 3rem;
+}
+
+#tax_year{
+width: 300px;
+height: 40px;
+border-radius: 8px;
+}
+
+.result_card {
+  display: block;  
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #002147;
+  width: 300px;  
+  float: right;  
+  margin-left: 20px; 
+  height: auto; 
+}
+
+
+.result_card h3 {
+margin-top: 0;
+font-size: 1.5em;
+color: #F82F68;
+}
+
+.result_card p {
+font-size: 16px;
+color:white;
+}
+
+.result_card span {
+font-weight: bold;
+color: #000;
+}
+#compound_frequency{
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  }
+
+  #tax-result-annual-income,
+  #tax-result-extra-income,
+  #tax-result-deductions,
+  #tax-result-age,
+  #tax-result-tax-year,
+  #tax-result-taxable {
+    color: white;
+  }
+
+  .Container{
+    display: flex;   
+    gap: 10em;
+  }
