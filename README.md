@@ -17,6 +17,22 @@
 
 ---
 
+## FinanceMate Screenshots
+
+![FinanceMate Dashboard](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.37.01.png)
+
+![FinanceMate Loan Calculator](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.37.14.png)
+
+![FinanceMate Tax Manager](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.37.32.png)
+
+![FinanceMate Savings Planner](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.37.43.png)
+
+![FinanceMate Calculated](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.38.07.png)
+
+![FinanceMate Calculated](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.38.49.png)
+
+![FinanceMate Calculated](https://github.com/FortuneMth/FinanceMate/raw/main/Screenshot%202025-01-05%20at%2020.39.16.png)
+
 
 ## Project Structure  
 
